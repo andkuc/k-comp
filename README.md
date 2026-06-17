@@ -1,6 +1,6 @@
 # 🖥️ K-Comp Single Board Computer
 
-Welcome to the official repository for the **K-Comp**, an educational Single Board Computer (SBC) engineered to teach embedded systems, C/C++ architecture, and hardware reality. 
+Welcome to the repository for the **K-Comp**, an educational Single Board Computer (SBC) engineered to teach embedded systems, C/C++ architecture, and hardware reality. 
 
 Built around the industry-standard **ATmega328P** microcontroller, the K-Comp is, at its core compatible to the Arduino Uno. However, it reimagines the early learning experience by integrating core peripherals directly onto the PCB, eliminating the electrical noise and frustration of complex breadboard wiring. 
 
@@ -36,7 +36,7 @@ The K-Comp exposes students to the strict constraints of real silicon—a 16 MHz
 ### 1. The Core & Onboard Peripherals
 To ensure students can immediately focus on writing logical architecture rather than debugging loose wires, the K-Comp features a suite of pre-routed, noise-free onboard hardware:
 * **Visuals:** 0.96" OLED Display (128x64 I²C matrix) and indicator LEDs.
-* **Inputs:** 2-Axis Analog Joystick (KY-023), tactile `START` / `SELECT` buttons, and an analog potentiometer.
+* **Inputs:** 2-Axis Analog Joystick (KY-023), tactile `START` / `SELECT` buttons, a distance sensor and an analog potentiometer.
 * **Audio:** Passive buzzer for frequency-based tone generation.
 
 ### 2. The Expansion Ecosystem (The Assortment Box)
@@ -54,7 +54,7 @@ These libraries provide immediate, clean access to the K-Comp's pre-routed hardw
 * **Interactive Inputs:** `kcomp_joystick.h` 
 * **Asynchronous Events:** `kcomp_button_start.h` & `kcomp_button_select.h` 
 * **Audio/Visual Feedback:** `kcomp_buzzer.h` & `kcomp_led.h`
-* **Analog Measurement:** `kcomp_potentiometer.h` 
+* **Analog Measurement:** `kcomp_potentiometer.h` & `kcomp_distance.h`
 
 ### Extension Libraries (The Assortment Box)
 As students outgrow the onboard peripherals, the K-Comp ecosystem scales via dedicated extension headers. The framework supports a wide array of external components, categorized by their architectural function:
