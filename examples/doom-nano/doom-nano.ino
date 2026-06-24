@@ -2,7 +2,7 @@
 #include "level.h"
 #include "sprites.h"
 #include "input.h"
-#include "entities.h"
+#include "entities.h" 
 #include "types.h"
 #include "display.h"
 #include "sound.h"
