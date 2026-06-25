@@ -12,6 +12,6 @@ int getDistanceMM() {
     delayMicroseconds(10);
     digitalWrite(DISTANCE_TRIG_PIN, LOW);
 
-    return (int)(pulseIn(DISTANCE_ECHO_PIN, HIGH) * DISTANCE_CONVERSION_FACTOR);
+    return (int)(pulseIn(DISTANCE_ECHO_PIN, HIGH, DISTANCE_ECHO_TIMEOUT_US) * DISTANCE_CONVERSION_FACTOR);
   
 }
