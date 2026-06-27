@@ -8,8 +8,8 @@
 
 #define DISTANCE_CONVERSION_FACTOR 0.1715
 
-// echo timeout in us - otherwise pulseIn blocks ~1s when nothing comes back. 25ms ~= 4m, plenty for the HC-SR04
-#define DISTANCE_ECHO_TIMEOUT_US 25000UL
+// echo timeout in us - otherwise pulseIn blocks ~1s when nothing comes back. 50ms ~= 8m, plenty for the HC-SR04
+#define DISTANCE_ECHO_TIMEOUT_US 50000UL
 
 const int trigPin = 11;
 const int echoPin = 10;
