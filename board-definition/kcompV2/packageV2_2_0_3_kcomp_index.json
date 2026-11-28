@@ -1,0 +1,58 @@
+{
+  "packages": [
+    {
+      "name": "kcomp",
+      "maintainer": "Andreas Kucher",
+      "websiteURL": "https://github.com/andkuc/k-comp",
+      "email": "andreas.kucher@gmail.com",
+      "help": {
+        "online": "https://github.com/andkuc/k-comp"
+      },
+      "platforms": [
+        {
+          "name": "K-Comp AVR Boards",
+          "architecture": "avr",
+          "version": "2.0.2",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/andkuc/k-comp/main/board-definition/kcompV2/kcomp-avr-2.0.3.zip",
+          "archiveFileName": "kcomp-avr-2.0.3.zip",
+          "checksum": "SHA-256:af4b9e72baf5cd0b1e3295cb7e9ef06cfd3ed069076ae7b1df77741fec9f6a06",
+          "size": "461714",
+          "help": {
+            "online": "https://github.com/andkuc/k-comp"
+          },
+          "boards": [
+            {
+              "name": "K-Comp V2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino17"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "serial-discovery"
+            }
+          ],
+          "monitorDependencies": [
+            {
+              "packager": "builtin",
+              "name": "serial-monitor"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
