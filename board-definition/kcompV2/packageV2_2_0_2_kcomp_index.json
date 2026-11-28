@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "2.0.2",
           "category": "Contributed",
-          "url": "https://github.com/andkuc/k-comp/raw/refs/heads/main/board-definition/kcompV2/kcompV2_2_0_2.zip",
+          "url": "https://github.com/andkuc/k-comp/raw/refs/heads/main/board-definition/kcompV2/kcomp-avr-2.0.2.zip",
           "archiveFileName": "kcomp-avr-2.0.2.zip",
           "checksum": "SHA-256:1045620e945e88fa00d91f85186b8b1771b8929b93c27e39a4bd18f9f3cf3ede",
           "size": "457131",
