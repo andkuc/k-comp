@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/andkuc/k-comp/main/board-definition/kcompV2/kcomp-avr-2.0.3.zip",
           "archiveFileName": "kcomp-avr-2.0.3.zip",
-          "checksum": "SHA-256:af4b9e72baf5cd0b1e3295cb7e9ef06cfd3ed069076ae7b1df77741fec9f6a06",
-          "size": "461714",
+          "checksum": "SHA-256:a523ffeed0752d6734b1940a57245ec80e4a18ae8fbf7832bc2206d661e041b2",
+          "size": "469155",
           "help": {
             "online": "https://github.com/andkuc/k-comp"
           },
